@@ -4,3 +4,4 @@
 Resolves #<issue-url>
 
 ### :clipboard: Tasks
+- [ ] :woman_technologist: `canary` ブランチに対するプルリクエストである
