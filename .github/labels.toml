@@ -1,22 +1,12 @@
 [bug]
-color = "ff8985"
+color = "d73a4a"
 name = "bug"
 description = "Something isn't working"
 
-[bugfix]
-color = "fbcf8e"
-name = "bugfix"
-description = ""
-
-[chore]
-color = "ededed"
-name = "chore"
-description = ""
-
-[dependencies]
-color = "5aa8fc"
-name = "dependencies"
-description = "Pull requests that update a dependency file"
+[documentation]
+color = "0075ca"
+name = "documentation"
+description = "Improvements or additions to documentation"
 
 [duplicate]
 color = "cfd3d7"
@@ -24,31 +14,31 @@ name = "duplicate"
 description = "This issue or pull request already exists"
 
 [enhancement]
-color = "c7ebff"
+color = "a2eeef"
 name = "enhancement"
 description = "New feature or request"
 
-[feature]
-color = "80d2ff"
-name = "feature"
-description = ""
+["good first issue"]
+color = "7057ff"
+name = "good first issue"
+description = "Good for newcomers"
 
-[fix]
-color = "d8ccff"
-name = "fix"
-description = ""
-
-[help wanted]
-color = "a1e3b5"
+["help wanted"]
+color = "008672"
 name = "help wanted"
 description = "Extra attention is needed"
 
+[invalid]
+color = "e4e669"
+name = "invalid"
+description = "This doesn't seem right"
+
 [question]
-color = "d0d8dc"
+color = "d876e3"
 name = "question"
 description = "Further information is requested"
 
-[release]
-color = "ffbb5c"
-name = "release"
-description = ""
+[wontfix]
+color = "ffffff"
+name = "wontfix"
+description = "This will not be worked on"
