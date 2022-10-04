@@ -6,12 +6,12 @@ description = "Something isn't working"
 [bugfix]
 color = "fbcf8e"
 name = "bugfix"
-description = ""
+#description = null  # To use: uncomment and replace null with value
 
 [chore]
 color = "ededed"
 name = "chore"
-description = ""
+#description = null  # To use: uncomment and replace null with value
 
 [dependencies]
 color = "5aa8fc"
@@ -31,14 +31,14 @@ description = "New feature or request"
 [feature]
 color = "80d2ff"
 name = "feature"
-description = ""
+#description = null  # To use: uncomment and replace null with value
 
 [fix]
 color = "d8ccff"
 name = "fix"
-description = ""
+#description = null  # To use: uncomment and replace null with value
 
-[help wanted]
+["help wanted"]
 color = "a1e3b5"
 name = "help wanted"
 description = "Extra attention is needed"
@@ -51,5 +51,4 @@ description = "Further information is requested"
 [release]
 color = "ffbb5c"
 name = "release"
-description = ""
-
+#description = null  # To use: uncomment and replace null with value
