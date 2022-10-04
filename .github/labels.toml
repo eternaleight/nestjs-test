@@ -1,4 +1,54 @@
+[bug]
+color = "ff8985"
+name = "bug"
+description = "Something isn't working"
+
+[bugfix]
+color = "fbcf8e"
+name = "bugfix"
+description = ""
+
+[chore]
+color = "ededed"
+name = "chore"
+description = ""
+
+[dependencies]
+color = "5aa8fc"
+name = "dependencies"
+description = "Pull requests that update a dependency file"
+
 [duplicate]
 color = "cfd3d7"
 name = "duplicate"
 description = "This issue or pull request already exists"
+
+[enhancement]
+color = "c7ebff"
+name = "enhancement"
+description = "New feature or request"
+
+[feature]
+color = "80d2ff"
+name = "feature"
+description = ""
+
+[fix]
+color = "d8ccff"
+name = "fix"
+description = ""
+
+[help wanted]
+color = "a1e3b5"
+name = "help wanted"
+description = "Extra attention is needed"
+
+[question]
+color = "d0d8dc"
+name = "question"
+description = "Further information is requested"
+
+[release]
+color = "ffbb5c"
+name = "release"
+description = ""
