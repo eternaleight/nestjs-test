@@ -1,12 +1,12 @@
 import { InjectRepository } from '@nestjs/typeorm'
 import { Injectable } from '@nestjs/common'
-import { Task } from './task.entity'
+import { Task } from './tasks.entity'
 import { DeleteResult, Repository } from 'typeorm'
 import { CreateTaskDto } from './dto/create-task'
 import { UpdateTaskDto } from './dto/update-task.dto'
 
 @Injectable()
-export class TaskServices {
+export class TasksServices {
   constructor(
     @InjectRepository(Task)
     private readonly tasksRepository: Repository<Task>,
