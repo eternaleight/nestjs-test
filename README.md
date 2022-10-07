@@ -12,7 +12,14 @@ xxxxxxxxxxxx   postgres:12-alpine   "docker-entrypoint.s…"   xx hours ago   Up
 ```
 npm run test:cov
 ```
-![CleanShot 2022-10-08 at 07 27 09@2x](https://user-images.githubusercontent.com/96198088/194672933-d4d1c0c3-7506-4766-80d6-cdbef926103f.png)
+| ![CleanShot 2022-10-08 at 07 27 09@2x](https://user-images.githubusercontent.com/96198088/194672933-d4d1c0c3-7506-4766-80d6-cdbef926103f.png)| 
+|:--:| 
+| *単体テスト（途中経過）* |
+
+| ![CleanShot 2022-10-08 at 12 07 20@2x](https://user-images.githubusercontent.com/96198088/194685145-712bb7db-79ff-40a8-ba6b-5dd8d1f698cc.png)|
+|:--:|
+| *単体テスト（終了）* |
+
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
