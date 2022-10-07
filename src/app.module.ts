@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { TaskModule } from './tasks/tasks.module'
+import { TasksModule } from './tasks/tasks.module'
 
 @Module({
   imports: [
@@ -14,7 +14,7 @@ import { TaskModule } from './tasks/tasks.module'
       autoLoadEntities: true,
       synchronize: true,
     }),
-    TaskModule,
+    TasksModule,
   ],
 })
 
