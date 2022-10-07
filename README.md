@@ -1,3 +1,19 @@
+docker postgresql
+```
+docker compose up
+```
+docker ps
+```
+CONTAINER ID   IMAGE                COMMAND                  CREATED        STATUS        PORTS                    NAMES
+xxxxxxxxxxxx   postgres:12-alpine   "docker-entrypoint.s…"   xx hours ago   Up xx hours   0.0.0.0:5431->5432/tcp   postgres-test
+xxxxxxxxxxxx   postgres:12-alpine   "docker-entrypoint.s…"   xx hours ago   Up xx hours   0.0.0.0:5432->5432/tcp   postgres-dev
+```
+単体テスト
+```
+npm run test:cov
+```
+![CleanShot 2022-10-08 at 07 27 09@2x](https://user-images.githubusercontent.com/96198088/194672933-d4d1c0c3-7506-4766-80d6-cdbef926103f.png)
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
