@@ -1,8 +1,8 @@
-docker postgresql
+docker postgresql (postgres-dev & postgres-testが起動)
 ```
-docker compose up
+$ docker compose up
 ```
-docker ps
+`$ docker ps`
 ```
 CONTAINER ID   IMAGE                COMMAND                  CREATED        STATUS        PORTS                    NAMES
 xxxxxxxxxxxx   postgres:12-alpine   "docker-entrypoint.s…"   xx hours ago   Up xx hours   0.0.0.0:5431->5432/tcp   postgres-test
@@ -10,15 +10,11 @@ xxxxxxxxxxxx   postgres:12-alpine   "docker-entrypoint.s…"   xx hours ago   Up
 ```
 単体テスト
 ```
-npm run test:cov
+$ npm run test:cov
 ```
-| ![CleanShot 2022-10-08 at 07 27 09@2x](https://user-images.githubusercontent.com/96198088/194672933-d4d1c0c3-7506-4766-80d6-cdbef926103f.png)| 
-|:--:| 
-| *単体テスト（途中経過）* |
-
-| ![CleanShot 2022-10-08 at 12 07 20@2x](https://user-images.githubusercontent.com/96198088/194685145-712bb7db-79ff-40a8-ba6b-5dd8d1f698cc.png)|
+|![CleanShot 2022-10-08 at 13 10 28@2x](https://user-images.githubusercontent.com/96198088/194687494-61234313-ca25-4f15-8872-d92ee521d194.png)|
 |:--:|
-| *単体テスト（終了）* |
+| *単体テスト* |
 
 
 <p align="center">

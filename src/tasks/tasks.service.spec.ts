@@ -1,9 +1,9 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { Task } from './tasks.entity';
-import { TasksServices } from './tasks.service';
+import { TasksService } from './tasks.service';
 import { Repository } from 'typeorm';
-import { CreateTaskDto } from './dto/create-task';
+import { CreateTaskDto } from './dto/create-task.dto';
 import { UpdateTaskDto } from './dto/update-task.dto';
 
 const taskArray = [
@@ -41,13 +41,13 @@ const updateTaskDto: UpdateTaskDto = {
   };
 
 describe('TasksService', () => {
-  let service: TasksServices;
+  let service: TasksService;
   let repository: Repository<Task>;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [
-        TasksServices,
+        TasksService,
         {
           provide: getRepositoryToken(Task),
           useValue: {
@@ -60,7 +60,7 @@ describe('TasksService', () => {
       ],
     }).compile();
 
-    service = module.get<TasksServices>(TasksServices);
+    service = module.get<TasksService>(TasksService);
     repository = module.get<Repository<Task>>(getRepositoryToken(Task));
   });
   it('should be defined', () => {
